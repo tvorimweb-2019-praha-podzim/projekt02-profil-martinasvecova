@@ -16,4 +16,96 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
+    width: 250px;
+    margin: 20px 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.profil {
+    background: #31363b;
+    box-shadow: 1px 1px 8px black;
+}
+
+.foto {
+    width: 250px;
+}
+
+.logo {
+    background: #b92e81;
+    border-radius: 50%;
+    position: absolute;
+    top:160px;
+    left: 205px; 
+    box-shadow: 2px 2px 8px black;
+    }
+
+    
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.obsah {
+    font-size: 14px;
+    color: #bdc3c7;
+    padding: 10px 20px 20px 20px;
+}
+
+
+ul {
+    margin-top: 0;
+    text-align: center;
+    padding: 0;
+}
+
+li {
+    display: block;
+}
+
+.facebook li,
+.twitter li {
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    border-top: 1px #3f464d solid;
+    color: #bdc3c7;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.portfolio a:hover,
+.portfolio a:focus,
+.portfolio a:active {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.facebook {
+    border-right: 1px #3f464d solid;
+    width: 125px;
+}
+
+.facebook a:hover,
+.facebook a:focus,
+.facebook a:active {
+    background-color:#3b5998;
+    color: white;
+}
+
+.twitter {
+    position: absolute;
+    left: 155px;
+    top: 552.5px;
+    width: 125px;
+}
+
+.twitter a:hover,
+.twitter a:focus,
+.twitter a:active {
+    background-color:  #1da1f2;
+    color: white;
 }
